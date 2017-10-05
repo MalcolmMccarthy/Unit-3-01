@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{125, 48}, {294, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "576D7EE1-F3F7-40ED-81D1-4CC2EBE0AD96",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter a number between 1 and 6:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{125, 115}, {294, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "number_textfield",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "4796BAC5-8B4B-461D-87CB-0C901BD179D0",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{125, 172}, {294, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_answer_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Check",
+          "uuid" : "3690F69F-D2E1-4670-911E-528ACC929BB4",
+          "class" : "Button",
+          "name" : "check_answer_button_touch_up_inside",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{125, 240}, {294, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "7DCDAF1F-FCBA-4A08-A61E-7060DBC3A415",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
